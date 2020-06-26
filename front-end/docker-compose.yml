@@ -1,0 +1,19 @@
+version: '3'
+services: 
+    docker-node:
+        image: ianmichael/dockernode
+        build: 
+            dockerfile: ./docker/Dockerfile
+            context: .
+        ports: 
+            - '3001:3000'
+        container_name: docker_node
+
+    docker-angular:
+        image: ianmichael/docker-angular
+        container_name: docker_angular
+        build: .
+        ports: 
+            - '8081:80'
+        depends_on: 
+            - "docker-node"
