@@ -30,7 +30,7 @@ Projeto realizado na disciplina Práticas de Programação para segunda unidade 
 
 Ian Michael – [@ianmichaelgs](https://https://www.instagram.com/ianmichaelgs/) – ian.silva@maisunifacisa.com.br
 
-[https://github.com/ianmichaelxp/Conversor-de-Algarismos-romano](https://github.com/ianmichaelxp)
+[https://github.com/ianmichaelxp/ianstagram](https://github.com/ianmichaelxp)
 
 
 [travis-image]: https://img.shields.io/badge/test-passing-brightgreen
